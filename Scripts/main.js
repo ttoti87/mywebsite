@@ -1,3 +1,3 @@
 let myHeading = document.querySelector('h1');
 myHeading.textContent = 'batman et robin sont-ils gay?';
-alert('Bonjour !');
+document.querySelector('html').addEventListener('click', function(){alert('Aïe, arrêtez de cliquer !!');});
